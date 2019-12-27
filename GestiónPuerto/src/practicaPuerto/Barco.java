@@ -51,6 +51,10 @@ public abstract class Barco implements Comparable, Valorable{
 		this.numPasajeros = inNumPasajeros;
 		this.edad = inEdad;
 	}
+	/**
+	 * 
+	 * @return
+	 */
 	
 	public String getMatricula() {
 		return matricula;
