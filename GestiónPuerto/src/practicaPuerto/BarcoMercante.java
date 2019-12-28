@@ -9,7 +9,7 @@ public class BarcoMercante extends Barco {
 	private double DIVIDIR_VALOR_ECONOMICO_10 = 0.5;
 	private double SUMA_ANIOS_10 = 10;
 	
-	/**
+	/****
 	 * Constructor sin parametros
 	 */
 	public BarcoMercante() {
@@ -78,7 +78,7 @@ public class BarcoMercante extends Barco {
 		return valorEconomico;
 	}
 	/**
-	 *  Metodo que calcula el valor economico que tendra el barco en 10 años, segun el valor economico multiplicado por  la raíz cuadrada del número de años que tendrá dentro de 10 años.
+	 *  Metodo que calcula el valor economico que tendra el barco en 10 aï¿½os, segun el valor economico multiplicado por  la raï¿½z cuadrada del nï¿½mero de aï¿½os que tendrï¿½ dentro de 10 aï¿½os.
 	 */
 	@Override
 	public double calcularValorEn10Anios() {
@@ -96,6 +96,6 @@ public class BarcoMercante extends Barco {
 		super.mostrarInfo();
 		System.out.println("******************************");
 		System.out.println("Informacion Barco Mercante");
-		System.out.println("Carga: "+carga+" kg"+"\n"+"Ratio de pasajeros: "+ratioPasajeros+"\n"+"Tiempo de vida: "+tiempoDeVida+"\n"+"Valor economico: "+valorEconomico+"\n"+"Valor economico dentro de 10 años: "+valorEconomico10Anios);
+		System.out.println("Carga: "+carga+" kg"+"\n"+"Ratio de pasajeros: "+ratioPasajeros+"\n"+"Tiempo de vida: "+tiempoDeVida+"\n"+"Valor economico: "+valorEconomico+"\n"+"Valor economico dentro de 10 aï¿½os: "+valorEconomico10Anios);
 	}
 }
