@@ -16,7 +16,7 @@ public class BarcoMercante extends Barco {
 		carga = 0;
 	}
 	
-	/**
+	/****
 	 * Constructor con 6 parametros
 	 * @param inMatricula del barco
 	 * @param inMetrosEslora del barco
